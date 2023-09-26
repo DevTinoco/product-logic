@@ -16,7 +16,6 @@ public class Program {
 	    System.out.println("Enter product dadte: ");
 	    System.out.print("Name:");
 	    
-	    
 	
 	
 	

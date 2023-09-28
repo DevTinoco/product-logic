@@ -4,7 +4,7 @@ public class Product {
 
 	public String name;
 	public double price;
-	public int quantity;
+	public int quantit;
 	
 	public double totalValueInStock() {
 		return price * quantity;
@@ -14,7 +14,7 @@ public class Product {
 		this.quantity += quantity;
 	}
 	
-	public void removerProducts(int quantity) {
+	public void public void removerProducts(int quantity) {
 		this.quantity -= quantity;
 	}
 	
@@ -22,10 +22,11 @@ public class Product {
 		return name
 				
 			+ ", $"
-			+ String.format("%.2f", price)
+			+ String.format("%.2f", price);
 		    +","
 		    + quantity
 		    +"units Total: $ "
 		    +String.format("%.2f", totalValueInStock());
 	}
 }
+""
